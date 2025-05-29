@@ -1,0 +1,46 @@
+body{
+      font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* COlors */
+.primary-color{
+    color: #fd6e0a;
+}
+.dark-2{
+    color: #474747;
+}
+/* Buttons */
+.btn-primary{
+    background-color: #fd6e0a;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Nav Styles */
+nav{
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 20px;
+}
